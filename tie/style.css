@@ -1,0 +1,43 @@
+
+body{
+    background-color: #B4A89A;
+}
+
+h2{
+ color: #5E534B;
+ font-style: kulim park;
+ text-align: center;
+ font-size: 34px;
+ word-spacing: 0.3cm;
+ position: relative;
+ font-family: 'Kulim Park', sans-serif;
+}
+
+img{
+    justify-content: right;
+    float: right;
+    padding-right: 38px;
+
+}
+ .container1{
+    text-align: center;
+    border:1px solid #5E534B;
+    background-color: #5E534B;
+    padding-right:0px;
+    width:64%;
+    height:69%;
+    position: absolute;
+    line-height: 38px;
+    top:22%;
+    left: 3.11%;
+    bottom: 11%;
+ }
+ .container1 p{
+    padding-top: 4.38%;
+    word-spacing: 0.2cm;
+    line-height: 1.34;
+    color:#B4A89A;
+    font-size: 22px;
+    font-family: 'Kulim Park', sans-serif;  
+    
+ }
