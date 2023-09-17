@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.main{
+   
+    background-image: url("../images/Hp-Hero-Desktop2-PPC.jpg");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.header img {
+    float:right;
+    height:50px;
+    width:100px;
+    padding:20px 40px 0px 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    padding:20px 40px 0px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    letter-spacing:3px;
+    margin: 12px;
+    font-size: 13px;
+    color: #E7D1C5;
+    transition:1s ease-in-out;
+    display:block;
+    padding:5px;
+}
+nav ul li a:hover{
+    background-color: #DACCC3;
+    cursor: pointer;
+    color:#2b241f;
+}
+
+.header p{
+     float:right;
+    color: #DACCC3;
+   letter-spacing: 8px;
+    padding:24px 0px 0px 0px;
+    font-size: 0.7cm;
+}
+.main-text{
+    flex-direction: column;
+    display:flex;
+    top:68%;
+    left:47%;
+    position:absolute;
+}
+.t{
+    color:#433A34;
+    word-spacing: 5px;
+    letter-spacing:5px;
+    font-size:35px;
+}
+.tt{
+    letter-spacing:3px;
+    line-height: 0.6cm;
+    font-size:15px;
+    color:#2b241f;
+}
