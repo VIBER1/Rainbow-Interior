@@ -21,12 +21,12 @@ img{
 }
  .container1{
     text-align: center;
-    border:1px solid #5E534B;
+    /* border:1px solid #5E534B; */
     background-color: #5E534B;
-    padding-right:0px;
+    
     width:64%;
     height:69%;
-    position: absolute;
+    position:static ;
     line-height: 38px;
     top:22%;
     left: 3.11%;
@@ -37,6 +37,7 @@ img{
     word-spacing: 0.2cm;
     line-height: 1.34;
     color:#B4A89A;
+    margin-top: 20%;
     font-size: 22px;
     font-family: 'Kulim Park', sans-serif;  
     
