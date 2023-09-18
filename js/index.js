@@ -1,7 +1,7 @@
 function loadContent(page, targetId){
     const tragetSection = document.getElementById(targetId);
     const xhr = new XMLHttpRequest();
-    xhr.open('GET',page,true);
+    xhr.open('GET','html/' + page,true);
     xhr.onreadystatechange = function(){
         if (xhr.readyState == 4 && xhr.status === 200){
             tragetSection.innerHTML = xhr.responseText;
