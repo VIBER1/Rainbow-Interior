@@ -8,6 +8,7 @@ body{
 }
 
 h2{
+ padding-top: 16px;   
  color: #5E534B;
  font-style: kulim park;
  text-align: center;
@@ -20,7 +21,7 @@ h2{
 img{
     justify-content: right;
     float: right;
-    padding-right: 38px;
+    padding-right: 3.5%;
 
 }
  .container1{
@@ -28,16 +29,16 @@ img{
     border:1px solid #5E534B;
     background-color: #5E534B;
     padding-right:0px;
-    width:64%;
-    height:69%;
+    width:65%;
+    height:68%;
     position: absolute;
     line-height: 38px;
-    top:22%;
-    left: 3.11%;
-    bottom: 11%;
+    top: 16%;
+    left: 5.20%;
+    bottom: 13%;
  }
  .container1 p{
-    padding-top: 4.38%;
+    padding-top: 6.68%;
     word-spacing: 0.2cm;
     line-height: 1.34;
     color:#B4A89A;
