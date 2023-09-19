@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>OPULENCE</title>
 </head>
 <body>
     <div class="main">
         
-        <div class="header">
+        <div class="header" id="header">
             <img src="../images/Screenshot 2023-09-16 170510.png">
             <p> OPULENCE</p>
-            <nav>
+            <nav >
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -21,15 +26,12 @@
                     <li><a href="">CONTACTS</a></li>
                 </ul>
             </nav>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
        <section class="main-text">
         <p class="t"> WE DESIGN PLACES<br>PEOPLE LIVE IN</p><br>
         <p class="tt">BUILDING HOUSES THAT FEEL LIKE<br>HOME-BY DESIGN</p>
        </section>
-
-
-
-       
     </div>
     
     <section id="about">
@@ -39,5 +41,6 @@
 
     </section>
     <script src="./js/index.js"></script>
+   
 </body>
 </html>
