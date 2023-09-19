@@ -15,6 +15,15 @@ window.addEventListener('load',function(){
     loadContent('contacts.html','contacts');
 })
 
+
+var header=document.getElementsById("header");
+function showMenu(){
+    header.style.left="0";
+}
+function hideMenu(){
+    header.style.right="-200px";
+}
+
 // function loadAboutContent() {
 //     const aboutSection = document.getElementById('about');
 //     const xhr = new XMLHttpRequest();
