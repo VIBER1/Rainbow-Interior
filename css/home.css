@@ -27,7 +27,7 @@ ul{
     padding:20px 40px 0px 40px;
 }
 
-nav ul li a{
+.mobile-menu ul li a{
     text-decoration: none;
     letter-spacing:3px;
     margin: 12px;
@@ -37,7 +37,7 @@ nav ul li a{
     display:block;
     padding:5px;
 }
-nav ul li a:hover{
+.mobile-menu ul li a:hover{
     background-color: #DACCC3;
     cursor: pointer;
     color:#2b241f;
