@@ -97,6 +97,7 @@ nav ul li a:hover{
   letter-spacing: 20px;
    font-size: 1.3cm;
  }
+ 
 }
 
 @media (min-width:817px),(max-width:1023px){
@@ -145,6 +146,7 @@ nav ul li a{
     padding:5px;
 }
 
+
 }
 
 @media (max-width:360px){
@@ -182,9 +184,28 @@ nav ul li a{
     font-size:15px;
     color:#25180f;
 }
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Display menu items vertically */
+    position: absolute;
+    top: 0;
+    left: 10; /* Adjust as needed to position the menu on the left side */
+              /* Occupy the full width of the screen */
+    background-color: #433A34;
+    padding: 10px;
+    padding-bottom: 20%;
+    z-index: 1;
+    margin-top:0.5%;
+    margin-left: 6.5%;
+    opacity: 0.5;
+  }
+
+
+
  }
 
- @media (max-width:414px){
+ @media (max-width:464px){
     
     .main-text{
                    top: 57.5%;
@@ -220,5 +241,71 @@ nav ul li a{
         letter-spacing: 10px;
        font-size: 1cm;
    }
+   .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Display menu items vertically */
+    position: absolute;
+    top: 0;
+    left: 10; /* Adjust as needed to position the menu on the left side */
+              /* Occupy the full width of the screen */
+    background-color: #433A34;
+    padding: 10px;
+    padding-bottom: 20%;
+    z-index: 1;
+    margin-top:0.5%;
+    margin-left: 6.5%;
+    opacity: 0.5;
+  }
    }
+
+   /* changes made to code buy adarsh */
+
+   /* CSS for the hamburger menu */
+.hamburger-menu {
+    display: none; /* Hide the hamburger menu by default for larger screens */
+    flex-direction: column; /* Display menu items vertically */
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #E7D1C5;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  
+  
+  .menu a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-size: 13px;
+    color: #E7D1C5;
+    transition: 0.4s;
+  }
+  
+  /* Add this media query to show the hamburger menu for smaller screens */
+  @media (max-width: 538px) {
+    .hamburger-menu {
+      display: flex;
+    }
+  
+    .menu {
+      display: none; /* Hide the regular menu for smaller screens */
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  }
+  
+  
+  
+  
+  
+  
    

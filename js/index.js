@@ -12,17 +12,21 @@ function loadContent(page, targetId){
 
 window.addEventListener('load',function(){
     loadContent('about.html','about');
+    loadContent('services.html','services')
     loadContent('contacts.html','contacts');
 })
 
+//for hamberger menu
+document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.getElementById("menu");
+    const hamburgerMenu = document.getElementById("hamburger-menu");
+  
+    hamburgerMenu.addEventListener("click", function () {
+      menu.classList.toggle("active");
+    });
+  });
+  
 
-var header=document.getElementsById("header");
-function showMenu(){
-    header.style.left="0";
-}
-function hideMenu(){
-    header.style.right="-200px";
-}
 
 // function loadAboutContent() {
 //     const aboutSection = document.getElementById('about');
