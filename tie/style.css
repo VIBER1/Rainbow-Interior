@@ -2,47 +2,144 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Kulim park', sans-serif;
 }
 body{
     background-color: #B4A89A;
+    height: 100%;
+    width: 100%;
 }
 
 h2{
- padding-top: 16px;   
+ padding-top: 2vw; 
  color: #5E534B;
  font-style: kulim park;
  text-align: center;
- font-size: 34px;
+ font-size: 2.3vw;
  word-spacing: 0.3cm;
  position: relative;
- font-family: 'Kulim Park', sans-serif;
+ 
 }
 
-img{
+.container img{
+    height: 83vh;
+    width: 29.8vw;
     justify-content: right;
     float: right;
-    padding-right: 3.5%;
+    padding-right: 3.2vw;
 
 }
  .container1{
+    position: relative;
     text-align: center;
     border:1px solid #5E534B;
     background-color: #5E534B;
-    padding-right:0px;
-    width:65%;
-    height:68%;
-    position: absolute;
-    line-height: 38px;
-    top: 16%;
-    left: 5.20%;
-    bottom: 13%;
+    width: 65vw;
+    height: 67vh;
+    line-height: 20px;
+    margin: 4vw 0vw 0vw 5.2vw;
  }
+
+ 
  .container1 p{
-    padding-top: 6.68%;
-    word-spacing: 0.2cm;
-    line-height: 1.34;
+    position: absolute;
+    padding: 50px 3px 0px 3px;
+    line-height: 1.3cm;
+   top:23%;
     color:#B4A89A;
-    font-size: 22px;
-    font-family: 'Kulim Park', sans-serif;  
+
     
  }
+
+ 
+     @media(max-width:780px) {
+        .container1 p{
+            line-height: 0.6cm;
+            font-size: 0.4cm; 
+            
+           
+         }
+         .container1{
+            margin-top:60px;
+            padding-top: 3.6vw;
+            width: 46vw;
+            height: 65vh;
+           
+         }
+
+         .container img{
+            padding-top: 5vw;
+            height: 78vh;
+            width: 48.8vw;
+           
+        }
+         }
+
+     
+         @media(max-width:1024px) {
+            .container1 p{
+                line-height: 0.6cm;
+                font-size: 0.4cm; 
+                
+               
+             }
+             .container1{
+                margin-top:60px;
+                padding-top: 3.6vw;
+                width: 46vw;
+                height: 65vh;
+               
+             }
+    
+             .container img{
+                padding-top: 5vw;
+                height: 78vh;
+                width: 48.8vw;
+               
+            }
+             }
+    
+
+
+    @media(max-width:600px) {
+      h2{
+          font-size: 20px;
+          height: 100%;
+          width: 100%;
+      }
+      .container img{
+          padding-top: 4vw;
+          height: 78vh;
+          width: 45.8vw;
+          padding-right: 3.5vw;
+      }
+      .container1{
+          margin-top: 5.6vw;
+          width: 49vw;
+          height: 70vh;
+         
+       }
+       
+       .container1 p{
+     padding: 0 ;
+      margin-top: 4vw;
+      line-height: 1.2;
+      word-spacing: 0cm;
+      font-size: 0.3; 
+   }
+   }
+
+
+   @media(max-width:360px){
+    .container1 p{
+        position: absolute;
+        padding: 0px 3px 0px 3px;
+        line-height: 0.6cm;
+      
+       font-size: 0.3cm;
+        color:#B4A89A;
+    
+        
+     }
+    
+   }
