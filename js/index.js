@@ -13,6 +13,7 @@ function loadContent(page, targetId){
 window.addEventListener('load',function(){
     loadContent('about.html','about');
     loadContent('services.html','services')
+    loadContent('projects.html','project')
     loadContent('contacts.html','contacts');
 })
 
