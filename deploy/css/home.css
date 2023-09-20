@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.main{
+   
+    background-image: url("../images/Hp-Hero-Desktop2-PPC.jpg");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.header img {
+    float:right;
+    height:50px;
+    width:100px;
+    padding:20px 40px 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    padding:20px 40px 0px 40px;
+}
+
+.mobile-menu ul li a{
+    text-decoration: none;
+    letter-spacing:3px;
+    margin: 12px;
+    font-size: 13px;
+    color: #E7D1C5;
+    transition:1s ease-in-out;
+    display:block;
+    padding:5px;
+}
+.mobile-menu ul li a:hover{
+    background-color: #DACCC3;
+    cursor: pointer;
+    color:#2b241f;
+}
+
+.header p{
+     float:right;
+    color: #DACCC3;
+   letter-spacing: 8px;
+    padding:24px 0px 0px  0px;
+    font-size: 0.7cm;
+}
+.main-text{
+    flex-direction: column;
+    display:flex;
+    top:68%;
+    left:47%;
+    position:absolute;
+}
+.t{
+    color:#433A34;
+    word-spacing: 5px;
+    letter-spacing:5px;
+    font-size:35px;
+}
+.tt{
+    letter-spacing:3px;
+    line-height: 0.6cm;
+    font-size:15px;
+    color:#2b241f;
+}
+
+@media (max-width:816px){
+    nav ul{
+        padding:24px 10px 0px 10px;
+    }
+   
+.main-text{
+    top: 60%;
+    left:47%;
+}
+.t{
+    color:#433A34;
+    word-spacing: 1px;
+    font-size:20px;
+}
+.tt{
+    letter-spacing:2px;
+    line-height: 0.4cm;
+    font-size:10px;
+    color:#2b241f;}
+
+.header p{
+   top:15%;
+   left:20%;
+   position: absolute;
+  letter-spacing: 20px;
+   font-size: 1.3cm;
+ }
+ 
+}
+
+@media (min-width:817px),(max-width:1023px){
+    nav ul{ 
+        padding:20px 40px 0px 40px;
+    }
+    
+    nav ul li a{
+        letter-spacing:2px;
+        margin: 6px;
+        font-size:13px;
+        padding:5px;
+    }
+
+}
+
+@media (max-width:1024px){
+    nav ul{
+        padding:17px 10px 0px 10px;
+    }
+  
+.header img {
+    width:80px;
+    padding:10px 10px 0px 0px;
+}
+.main-text{
+    top: 60%;
+    left:47%;
+}
+.t{
+    word-spacing: 3px;
+    letter-spacing:2px;
+    font-size:28px;
+    color:#433A34;
+}
+nav ul{
+    
+    padding:20px 40px 0px 40px;
+}
+
+nav ul li a{
+    
+    letter-spacing:3px;
+    margin: 12px;
+    font-size: 13px;
+    padding:5px;
+}
+
+
+}
+
+@media (max-width:360px){
+    .header img {
+        height:50px;
+        width:60px;
+        padding:20px 10px 0px 0px;
+    }
+    ul{
+        padding:10px 0px 0px 0px;
+    }
+    nav ul li a{
+        margin:5px;
+        letter-spacing:0px;
+        font-size: 10px;
+        padding:1px;
+    }
+    .header p{
+        position: absolute;
+        top:20%;
+        left:20%;
+        letter-spacing: 10px;
+       font-size: 1cm;
+   }
+   .main-text{
+     top:51%;
+    left:44%;
+    position:absolute;
+}
+.t{
+
+    font-size:25px;
+}
+.tt{  
+    font-size:15px;
+    color:#25180f;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Display menu items vertically */
+    position: absolute;
+    top: 0;
+    left: 10; /* Adjust as needed to position the menu on the left side */
+              /* Occupy the full width of the screen */
+    background-color: #433A34;
+    padding: 10px;
+    padding-bottom: 20%;
+    z-index: 1;
+    margin-top:0.5%;
+    margin-left: 6.5%;
+    opacity: 0.5;
+  }
+
+
+
+ }
+
+ @media (max-width:464px){
+    
+    .main-text{
+                   top: 57.5%;
+                   left:45%;
+               }
+       .t{
+        flex-direction: column;
+           font-size:20px;
+           color:#433A34;
+           word-spacing: 2px;
+           letter-spacing:1px;
+       }
+       .tt{
+      letter-spacing:3px;
+       line-height: 0.6cm;
+       font-size:10px;
+       color:#2b241f;
+       
+       }
+       ul{
+        padding:10px 0px 0px 0px;
+    }
+    nav ul li a{
+        margin:2.8px;
+        letter-spacing:0px;
+        font-size: 10px;
+        padding:1px;
+    }
+    .header p{
+        position: absolute;
+        top:20%;
+        left:20%;
+        letter-spacing: 10px;
+       font-size: 1cm;
+   }
+   .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Display menu items vertically */
+    position: absolute;
+    top: 0;
+    left: 10; /* Adjust as needed to position the menu on the left side */
+              /* Occupy the full width of the screen */
+    background-color: #433A34;
+    padding: 10px;
+    padding-bottom: 20%;
+    z-index: 1;
+    margin-top:0.5%;
+    margin-left: 6.5%;
+    opacity: 0.5;
+  }
+   }
+
+   /* changes made to code buy adarsh */
+
+   /* CSS for the hamburger menu */
+.hamburger-menu {
+    display: none; /* Hide the hamburger menu by default for larger screens */
+    flex-direction: column; /* Display menu items vertically */
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #E7D1C5;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  
+  
+  .menu a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-size: 13px;
+    color: #E7D1C5;
+    transition: 0.4s;
+  }
+  
+  /* Add this media query to show the hamburger menu for smaller screens */
+  @media (max-width: 538px) {
+    .hamburger-menu {
+      display: flex;
+    }
+  
+    .menu {
+      display: none; /* Hide the regular menu for smaller screens */
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  }
+  
+  
+  
+  
+  
+  
+   

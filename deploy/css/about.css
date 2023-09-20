@@ -1,0 +1,154 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Kulim park', sans-serif;
+}
+body{
+   background-color: #B4A89A;
+   height: 100%;
+   width: 100%;
+}
+
+h2{
+padding-top: 2vw; 
+color: #5E534B;
+font-style: kulim park;
+text-align: center;
+font-size: 2.3vw;
+word-spacing: 0.3cm;
+position: relative;
+
+}
+
+.container img{
+   height: 83vh;
+   width: 29.8vw;
+   justify-content: right;
+   float: right;
+   padding-right: 3.2vw;
+
+}
+.container1{
+   text-align: center;
+   border:1px solid #5E534B;
+   background-color: #5E534B;
+   width: 65vw;
+   height: 67vh;
+   position: relative;
+   line-height: 38px;
+   margin: 4vw 0vw 0vw 5.2vw;
+}
+
+
+.container1 p{
+   padding: 6.3vw 3vw 0vw 3vw;
+   word-spacing: 0.1cm;
+   line-height: 1.3;
+   color:#B4A89A;
+   font-size: 20px; 
+   
+}
+    @media(max-width:780px) {
+       .container1 p{
+           padding-top: 5.3vw;
+           font-size: 18px; 
+           
+          
+        }
+        .container1{
+           padding-top: 8.6vw;
+           width: 46vw;
+           height: 65vh;
+          
+        }
+
+        .container img{
+           padding-top: 5vw;
+           height: 78vh;
+           width: 48.8vw;
+          
+       }
+        }
+
+       
+    @media(max-width:1280px) {
+       .container1 p{
+           padding-top: 5.3vw;
+           font-size: 17px; 
+          
+        }
+        .container1{
+           margin-top: 6.3vw;
+           width: 46vw;
+           height: 65vh;
+          
+        }
+
+        .container img{
+           padding-top: 4vw;
+           height: 78vh;
+           width: 48.8vw;
+          
+       }
+        }
+
+@media(max-width:360px) {
+   .container img{
+       height: 78vh;
+       width: 46.8vw;
+      
+   }
+
+   .container1{
+       margin-top: 9.6vw;
+       width: 48vw;
+       height: 66vh;
+      
+    }
+    
+.container1 p{
+  
+   line-height: 1;
+   word-spacing: 0cm;
+   font-size: 8px;
+}
+}
+@media(max-width:430px) {
+  .container1 p{
+    
+      line-height: 1;
+      font-size: 13px; 
+      justify-content: space-evenly;
+   }
+   }
+   @media(max-width:600px) {
+     h2{
+         font-size: 26px;
+         height: 100%;
+         width: 100%;
+     }
+     .container img{
+         padding-top: 4vw;
+         height: 78vh;
+         width: 45.8vw;
+         padding-right: 3.5vw;
+     }
+     .container1{
+         margin-top: 5.6vw;
+         width: 49vw;
+         height: 70vh;
+        
+      }
+      
+      .container1 p{
+    
+     margin-top: 4vw;
+     line-height: 1.2;
+     word-spacing: 0cm;
+     font-size: 15px; 
+  }
+  }
+  .container {
+   margin-bottom: 5%;
+}
